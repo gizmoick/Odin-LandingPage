@@ -2,8 +2,11 @@ html {
   height: 100%;
 }
 
-body {
+* {
   box-sizing: border-box;
+}
+
+body {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   height: 100%;
   margin: 0;
@@ -35,15 +38,15 @@ body {
 
 .attention-grab-container {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   background-color: #1F2937;
-  padding: 36px;
+  padding: 100px;
   gap: 36px;
 }
 
 .left-attention {
-  width: 450px;
+  width: 450px
 }
 
 .left-header {
@@ -79,7 +82,111 @@ body {
   background-color: #e5e7eb;
 }
 
-.right-text {
+.info-top-container {
+  padding-top: 48px;
+  padding-bottom: 150px;
+}
+
+.info-top-header {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 48px;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.info-top-parts-container {
+  display: flex;
+  justify-content: center;
+}
+
+.info-top-parts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+}
+
+.info-top-placeholder {
+  width: 150px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  border: 3px solid;
+  border-color: #3882f6;
+  border-radius: 10px;
+  
+}
+
+.top-parts-text {
+  width: 150px;
+}
+
+.info-mid-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e5e7eb;
+  padding: 100px;
+}
+
+.info-mid-quote {
+  width: 400px;
+  padding: 24px;
+}
+
+.info-mid-quote-src {
+  text-align: right;
+}
+
+.info-bot-container {
+  display: flex;
+  justify-content: center;
+}
+
+.info-bot-container {
+  padding: 48px;
+}
+
+.bot-call-container {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 960px;
+  background-color: #3882f6;
+  border-radius: 5px;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.bot-call-header {
+  font-size: 18px;
+  font-weight: 700;
+  color: #f9faf8;
+}
+
+.bot-call-text {
+  font-size: 18px;
+  color:#e5e7eb;
+}
+
+.bot-btn-right {
+  border: 2px solid #f9faf8;
+  border-radius: 5px;
+  color:#f9faf8;
+  padding: 8px 24px 8px 24px;
 
 }
 
+.footer-container {
+  display: flex;
+  justify-content: center;
+  background-color: #1F2937;
+  padding: 16px;
+}
+
+.footer-text {
+  color:#e5e7eb
+}
