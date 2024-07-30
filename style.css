@@ -23,8 +23,10 @@ body {
   justify-content: space-between;
   align-items: center;
   padding-top: 16px;
-  margin-right: 200px;
-  margin-left: 200px;
+  width: 1200px;
+  margin: auto;
+  /* margin-right: 200px;
+  margin-left: 200px; */
 }
 
 .left-header-logo {
@@ -50,8 +52,8 @@ body {
   align-items: center;
   padding-top: 100px;
   padding-bottom: 100px;
-  margin-right: 200px;
-  margin-left: 200px;
+  width: 1200px;
+  margin: auto;
 }
 
 .left-attention {
@@ -143,10 +145,12 @@ body {
   background-color: #e5e7eb;
   padding-top: 120px;
   padding-bottom: 120px;
+ 
 }
 
 .quote-container {
-  width: 700px;
+  width: 1200px;
+  margin: auto;
 }
 
 .info-quote {
