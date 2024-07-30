@@ -23,7 +23,6 @@ body {
   justify-content: space-between;
   align-items: center;
   padding-top: 16px;
-  padding-bottom: 16px;
   margin-right: 200px;
   margin-left: 200px;
 }
@@ -110,6 +109,7 @@ body {
 .info-parts-container {
   display: flex;
   justify-content: center;
+  gap: 16px;
 }
 
 .info-parts {
@@ -119,6 +119,7 @@ body {
   align-items: center;
   text-align: center;
   width: 200px;
+  gap: 10px;
 }
 
 .info-placeholder {
@@ -135,16 +136,17 @@ body {
   width: 150px;
 }
 
-.mid-container {
+.info-quote-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #e5e7eb;
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
 .quote-container {
-  width: 800px;
+  width: 700px;
 }
 
 .info-quote {
@@ -161,18 +163,17 @@ body {
   font-weight: 800;
 }
 
-.bot-container {
-  display: flex;
-  justify-content: center;
+.info-call-container {
   padding-top: 96px;
   padding-bottom: 96px;
+  margin-right: 200px;
+  margin-left: 200px;
 }
 
-.bot-call-container {
+.call-container {
   display:flex;
   justify-content: space-around;
   align-items: center;
-  width: 960px;
   background-color: #3882f6;
   border-radius: 5px;
   padding-top: 36px;
